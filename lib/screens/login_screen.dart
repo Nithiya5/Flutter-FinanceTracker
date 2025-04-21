@@ -94,7 +94,7 @@ class _LoginPageState extends State<LoginPage> {
                 child: Text(
                   'New user? Sign up',
                   style: TextStyle(
-                    color: Colors.blue,
+                    color: const Color.fromARGB(255, 29, 19, 94),
                     decoration: TextDecoration.underline,
                   ),
                 ),

@@ -128,7 +128,7 @@ class _TransactionFormState extends State<TransactionForm> {
             ElevatedButton(
               onPressed: _submitData,
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.blue,
+                backgroundColor: Color.fromARGB(255, 29, 19, 94),
                 foregroundColor: Colors.white,
                 padding: EdgeInsets.symmetric(horizontal: 24, vertical: 14),
                 shape: RoundedRectangleBorder(

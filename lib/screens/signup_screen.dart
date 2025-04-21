@@ -71,7 +71,7 @@ class _SignUpPageState extends State<SignUpPage> {
               ElevatedButton(
                 onPressed: isLoading ? null : _signUp,
                 child: isLoading
-                    ? const CircularProgressIndicator(color: Colors.white)
+                    ? const CircularProgressIndicator(color: Color.fromARGB(255, 29, 19, 94))
                     : const Text("Sign Up"),
               ),
               const SizedBox(height: 16),

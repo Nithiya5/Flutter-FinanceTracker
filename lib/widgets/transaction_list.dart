@@ -43,7 +43,7 @@ class TransactionList extends StatelessWidget {
                     '${tx.category} • ₹${tx.amount.toStringAsFixed(2)}',
                   ),
                   trailing: IconButton(
-                    icon: Icon(Icons.delete, color: Colors.blue),
+                    icon: Icon(Icons.delete, color: Color.fromARGB(255, 29, 19, 94)),
                     onPressed: () => onDelete(tx.id),
                   ),
                 ),

@@ -85,7 +85,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 IconButton(
                   icon: Icon(
                     _isBalanceVisible ? Icons.visibility_off : Icons.visibility,
-                    color: Colors.blue,
+                    color: const Color.fromARGB(255, 29, 19, 94),
                   ),
                   onPressed: () {
                     setState(() {
@@ -122,7 +122,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         "Remaining Balance: ₹${remainingBalance.toStringAsFixed(2)}",
                         style: TextStyle(
                           color: remainingBalance >= 0
-                              ? Colors.blue
+                              ? const Color.fromARGB(255, 29, 19, 94)
                               : Colors.red,
                           fontSize: 18,
                           fontWeight: FontWeight.bold,

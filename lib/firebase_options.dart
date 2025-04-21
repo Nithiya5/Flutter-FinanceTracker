@@ -41,13 +41,13 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-     apiKey: "AIzaSyCS_PxOM-cIJnrlOtkf3ee9JXs7wSPWZWU",
-  authDomain: "financetracker-c4449.firebaseapp.com",
-  projectId: "financetracker-c4449",
-  storageBucket: "financetracker-c4449.firebasestorage.app",
-  messagingSenderId: "664584052415",
-  appId: "1:664584052415:web:46c53b3837cd5bf196700a",
-  measurementId: "G-BZPX5X1EHF"
+    apiKey: 'AIzaSyCS_PxOM-cIJnrlOtkf3ee9JXs7wSPWZWU',
+    appId: '1:664584052415:web:d1a8169e9435647396700a',
+    messagingSenderId: '664584052415',
+    projectId: 'financetracker-c4449',
+    authDomain: 'financetracker-c4449.firebaseapp.com',
+    storageBucket: 'financetracker-c4449.firebasestorage.app',
+    measurementId: 'G-98LFPH510W',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
@@ -85,4 +85,5 @@ class DefaultFirebaseOptions {
     storageBucket: 'financetracker-c4449.firebasestorage.app',
     measurementId: 'G-1G10G7VGZP',
   );
+
 }
